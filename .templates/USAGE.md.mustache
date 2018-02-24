@@ -1,0 +1,11 @@
+```javascript
+
+const {ThirdPartyEntity} = require('@pigalle/entities.thirdparty')
+
+// Prepare the usage of [express](https://expressjs.com/) into a Pigalle application.
+const expressEntity = ThirdPartyEntity.factory('express')
+
+// ... or you can use another name for entity
+const expressEntity = ThirdPartyEntity.factory('http', require('express'))
+
+```
