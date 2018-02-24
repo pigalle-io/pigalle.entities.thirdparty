@@ -32,4 +32,3 @@ describe('Create a instance of {ThirdPartyPlugin} using <factory> method', () =>
     (ThirdPartyPlugin.factory().type()).should.be.equal('plugins.thirdparty')
   })
 })
-
