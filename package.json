@@ -1,8 +1,8 @@
 {
   "name": "@pigalle/plugins.thirdparty",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "An entity to include third party into the Pigalle framework.",
-  "main": "lib/thirdparty-entity.js",
+  "main": "lib/thirdparty-plugin.js",
   "scripts": {
     "test": "nyc mocha",
     "lint": "node ./node_modules/standard/bin/cmd.js --fix",
